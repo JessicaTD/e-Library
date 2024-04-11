@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LIBRARY + [Programming Books]</title>
+    <link rel="icon" type="images/logo.png" href="images/logo.png">
+    <link rel="stylesheet" href="style-introduction.css">
+    <!--icons-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+    <!--header-->
+    <header id="main-header">
+        <div class="inner-container">
+            <h1><a href="index.html" class="logo"></a></h1>
+        </div>
+    </header>
+           <!--side nav-->
+    <div class="sidebar sb-left">
+        <nav class="mobile-nav">
+          <ul>
+            <li><a href="index.html"><i class="fa-solid fa-book"></i><span>All Books</span></a></li>
+            <li><a href="index-latest.html"><i class="fa-regular fa-calendar"></i><span>Latest</span></a></li>
+            <li><a href="index-top.html"><i class="fa fa-trophy"></i><span>Top</span></a></li>
+            <li class="active"><a href="index-introduction.html"><i class="fa-solid fa-code"></i><span>Introduction</span></a></li>
+            <li><a href="index-support.html"><i class="fa-solid fa-comments"></i><span>Support</span></a></li>
+            <li><a href="index-about.html"><i class="fa-solid fa-circle-info"></i><span>About</span></a></li>
+            <li><a href="index-contact.html"><i class="fa fa-envelope"></i><span>Contact</span></a></li>
+        </ul>
+        </nav>
+      </div>
+
+
+      <div id="header">
+        <p>Introduction</p>
+    </div>
+<div id="contaniner">
+  <div id="tabs">
+      <input type="radio" name="tabs" id="javascript-ch" onclick="javascript_display()">
+      <label for="javascript-ch" id="javascript-lb"><div><i class="fa-brands fa-js" style="margin-right: 15px;"></i>JavaScript</div></label>
+      <input type="radio" name="tabs" id="cs-ch" onclick="cs_display()">
+      <label for="cs-ch" id="cs-lb"><div><i class="fa-solid fa-code" style="margin-right: 15px;"></i>HTML / CSS</div></label>
+      <input type="radio" name="tabs" id="python-ch" onclick="python_display()">
+      <label for="python-ch" id="python-lb"><div><i class="fa-brands fa-python" style="margin-right: 15px;"></i>Python</div></label>
+      <input type="radio" name="tabs" id="java-ch" onclick="java_display()">
+      <label for="java-ch" id="java-lb"><div><i class="fa-brands fa-java" style="margin-right: 15px;"></i>Java</div></label>
+      <input type="radio" name="tabs" id="php-ch" onclick="php_display()">
+      <label for="php-ch" id="php-lb"><div><i class="fa-brands fa-php" style="margin-right: 15px;"></i>PHP</div></label>
+      <input type="radio" name="tabs" id="sql-ch" onclick="sql_display()">
+      <label for="sql-ch" id="sql-lb"><div><i class="fa-solid fa-database" style="margin-right: 15px;"></i>SQL</div></label>
+  </div>
+  <div id="text">
+      <div id="javascript-txt">
+          <p class="txt-head">JavaScript Introduction</p>
+          <p>JavaScript is a high-level programming language used to create interactive and dynamic web content and it can manipulate HTML and CSS to change the content and appearance of web pages. It is a client-side scripting language, 
+            meaning it is executed on the user’s web browser, rather than on the web server. It can also be used to create games, animations, and interactive elements like pop-up menus, image carousels, and drop-down lists.</p>
+      </div>
+      <div id="cs-txt">
+          <p class="txt-head">HTML / CSS Introduction</p>
+          <p>HTML stands for HyperText Markup Language and is used to define the structure of a web page. It has different attributes and elements with different properties. HTML5 is the latest version of HTML. CSS, on the other hand, is a sheet style language used to control web page styling. CSS assigns different properties to HTML tags, either specified to single tags, multiple tags, an entire document, or multiple documents.</p>
+      </div>
+      <div id="python-txt">
+          <p class="txt-head">Python Introduction</p>
+          <p>Python's simple, easy-to-learn syntax emphasizes readability and reduces the cost of program maintenance. Its high-level built-in data structures, combined with dynamic typing and dynamic binding, make it attractive for Rapid Application Development, as well as for use as a scripting or glue language to connect existing components together. It was created by Guido van Rossum in 1991 and is widely used in web applications, software development, data science, and machine learning.</p>
+      </div>
+      <div id="java-txt">
+          <p class="txt-head">Java Introduction</p>
+          <p>Java is a widely used object-oriented programming language and software platform that runs on billions of devices worldwide. It powers applications, smartphone operating systems, enterprise software, and many well-known programs. Java is not to be confused with JavaScript, a scripting language used to create dynamic web pages. The rules and syntax of Java are based on the C and C++ languages.</p>
+      </div>
+      <div id="php-txt">
+          <p class="txt-head">PHP Introduction</p>
+          <p>PHP, which stands for “PHP: Hypertext Preprocessor,” is a server-side scripting language that is widely used for web development. It is an open-source, general-purpose language that is particularly useful for creating dynamic and interactive web pages. PHP code can be embedded into HTML, and it is executed on the server, generating HTML which is then sent to the client. This allows for the creation of various types of web applications, including e-commerce websites, CRM systems, and others.</p>
+      </div>
+      <div id="sql-txt">
+        <p class="txt-head">SQL Introduction</p>
+        <p>Structured Query Language (SQL) is a programming language used to manage and manipulate data in a relational database. It is a standard language for accessing and manipulating databases and is used to store, update, remove, search, and retrieve information from the database. SQL became a standard of the American National Standards Institute (ANSI) in 1986 and of the International Organization for Standardization (ISO) in 1987.</p>
+    </div>
+  </div>
+</div>
+
+<script src="script-introduction.js"></script>
+
+</body>
+</html>

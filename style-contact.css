@@ -1,0 +1,268 @@
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700");
+@import url(https://netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.css);
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+}
+html{
+  scroll-behavior: smooth;
+}
+body {
+    line-height: 1.5;
+    font-size: 14px;
+    font-weight: 400;
+    display: table;
+    table-layout: fixed;
+    max-width: 1600px;
+    height: auto;
+    margin: 0;
+    color: #fff;
+    background-image: url(images/13_contact.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+   h2, h3, h4, p {
+    margin-top: 50px;
+    line-height: 1.1em;
+    color: #ffffff;
+    text-align: center;    
+  }
+    /* btn */
+    #button-hover{
+      margin-left:15px; 
+      background-color:#fff; 
+      color:#0c0c0c; 
+      padding:22px ; 
+      padding-left:80px; 
+      padding-right:80px;
+      margin-top: 90px; 
+      border-radius:50px; 
+      font-size:28px; 
+      letter-spacing:2px;
+      font-weight: 700;
+    }
+    #button-hover:hover{
+      color: #fff;
+      background: linear-gradient(50deg, rgba(121,76,236,1) 17%, rgba(167,112,181,1) 48%, rgba(91,205,207,1) 100%);
+      cursor: pointer;
+    }
+/* logo */
+#main-header h1 .logo {
+    font-family: 'Lato', sans-serif;
+    color: #fffffff8;
+    text-align: center;
+    margin-top: -15px;
+    font-size: 36px;
+    font-weight: 700;
+  }
+  #main-header h1 .logo::before {
+    content: 'LIBRARY +';
+    font-size: 35px; 
+    position: fixed;
+    background-color: #0c0c0c;
+    border-bottom: solid #ffffff56 1px;
+    z-index: 100;
+    width: 100%;
+    margin-top: -10px;
+    margin-left: -20px;
+    padding: 10px;
+  }
+  body,html {
+    width: 100%;
+  }
+  h1,h2,h3,h4,p {
+    line-height: 1.5em;
+  }
+/* side nav */
+  body .sidebar.sb-active {
+    display: table-cell;
+    z-index: 1;
+  }
+  body .sidebar nav {
+    position: fixed;
+    background: #0c0c0c;
+    width: 100px;
+    height: inherit;
+    top: 80px;
+    z-index: 40;
+  }
+  /* side nav text syling */
+  h1 {
+    font-size: 40px;
+    font-weight: 700;
+    margin: 10px;
+  }
+  h3 {
+    font-size: 15px;
+    line-height: 20px;
+    margin-bottom: 10px;
+  }
+  a {
+    text-decoration: none;
+    transition: 0.3s ease;
+  }
+  /* side nav styling */
+  .mobile-nav ul li {
+      display: block;
+    }
+    .mobile-nav ul li a {
+      display: block;
+      color: rgba(255, 255, 255, 0.7);
+      padding: 21px 15px;
+    }
+    .mobile-nav ul li a:hover {
+      color: #fff;
+      background: rgba(0, 0, 0, 0.2);
+    }
+    .mobile-nav ul li a i {
+      display: block;
+      text-align: center;
+      font-size: 24px;
+      padding-bottom: 10px;
+    }
+    .mobile-nav ul li a span {
+      display: block;
+      text-align: center;
+    }
+    .mobile-nav ul li.active a {
+      color: #fff;
+      background: #794CEC;
+    }
+  #sidebar {
+    display: table-cell;
+    background: #282c39;
+    width: 180px;
+    z-index: 100;
+  }
+  /* contact form */
+  section {
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  
+  section.contact-us #contact {
+    position: relative;
+    display: block;
+    width: 380px;
+    height: 550px;
+    background-color: #794cec49;
+    padding: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 135px;
+    border-radius: 30px;
+    box-shadow: 0px 0px 15px #794cec53;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+  section.contact-us .section-heading {
+    position: relative; 
+    display: block;
+    margin: auto;
+  }
+  .section-heading h4 {
+    line-height: 40px;
+    font-size: 35px;
+    font-weight: 900;
+    color: #ffffff;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+  }
+  input, textarea {
+    width: 300px;
+    position: relative;
+    display: block;
+    background-color: #0c0c0c2c;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    border: none;
+    border-radius: 15px;
+    box-shadow: none;
+    outline-color: #794CEC;
+  }
+  input, select, textarea{
+    color: #fff;
+}
+  input {
+    height: 50px;
+    padding: 0px 15px;
+  }
+  textarea {
+    min-height: 140px;
+    max-height: 180px;
+    padding: 15px;
+    resize: none;
+  }
+  .contact-us span {
+    height: 20px;
+    font-size: 12px;
+    margin-bottom: 20px;
+  }
+  .valid_info_name, .valid_info_email, .valid_info_message{
+    display: inline-block;
+    font-size: 13px;
+    margin: -10px 2px;
+  }
+  .btn {
+    display: inline-flex;
+    width: 100%;
+    justify-content: flex-end;
+  }
+  
+  #form-submit {
+    position: relative;
+    display: inline-block;
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #fff;
+    padding: 12px 20px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: all .3s;
+    transition: all .3s;
+  }
+  
+  #form-submit:disabled {
+    border: 1px solid #9e9e9e;
+    background: transparent;
+    color: #9e9e9e;
+    transition: none;
+    transform: none;
+    cursor: default;
+    border-radius: 50px;
+    padding: 15px 20px;
+  }
+  #form-submit:hover:disabled{
+    border: 1px solid #ffffff;
+    color: #ffffff;
+    background: transparent;
+    transition: none;
+    transform: none;
+    cursor: pointer;
+  }
+  button:active {
+      transform: scale(0.95);
+  }
+  button:focus {
+      outline: none;
+  }
+  button.ghost {
+      background-color: transparent;
+      border-color: #FFFFFF;
+  }
+i{
+    margin-right: 5px;
+}
+
+

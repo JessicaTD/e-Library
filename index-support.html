@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LIBRARY + [Programming Books]</title>
+    <link rel="icon" type="images/logo.png" href="images/logo.png">
+    <link rel="stylesheet" href="style-support.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!--icons-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+     <!--header-->
+     <header id="main-header">
+        <div class="inner-container">
+            <h1><a href="index.html" class="logo"></a></h1>
+        </div>
+    </header>
+           <!--side nav-->
+    <div class="sidebar sb-left">
+        <nav class="mobile-nav">
+          <ul>
+            <li><a href="index.html"><i class="fa-solid fa-book"></i><span>All Books</span></a></li>
+            <li><a href="index-latest.html"><i class="fa-regular fa-calendar"></i><span>Latest</span></a></li>
+            <li><a href="index-top.html"><i class="fa fa-trophy"></i><span>Top</span></a></li>
+            <li><a href="index-introduction.html"><i class="fa-solid fa-code"></i><span>Introduction</span></a></li>
+            <li class="active"><a href="index-support.html"><i class="fa-solid fa-comments"></i><span>Support</span></a></li>
+            <li><a href="index-about.html"><i class="fa-solid fa-circle-info"></i><span>About</span></a></li>
+            <li><a href="index-contact.html"><i class="fa fa-envelope"></i><span>Contact</span></a></li>
+        </ul>
+        </nav>
+      </div>
+                         <!--title-->
+<div class="container w-75 p-5 mx-auto px-4 pt-5 title-container" id="home" style="margin-top: -90px;">
+    <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+      <div class="col-10 col-sm-8 col-lg-6">
+        <span class="shadow-animation"></span>
+      </div>
+      <div class="col-lg-6" style="margin-left:250px; padding-top:200px; margin-top:100px;">
+        <h1 class="display-2 fw-bold lh-1 mb-2 text-light m-4" style="font-size:100px; line-height:65px; margin-bottom:40px;">Get Support</h1>
+        <h6 class="1h-5 mb-2 text-light m-4" style="font-size:22px; line-height:27px; margin-left:15px;">Talk to out AI assistant in the bottom-right corner if you  need<br> help  or have any questions.</h6>
+            <div class="btn-radius">
+              <div class="d-grid d-md-flex justify-content-md-start">
+                <a href="index-contact.html"> <button type="button" id="button-hover"><h6>or contact us</h6></button></a>
+              </div>
+      </div>
+      </div>
+    </div>
+  </div>
+
+      <script type="text/javascript">
+        (function(d, t) {
+            var v = d.createElement(t), s = d.getElementsByTagName(t)[0];
+            v.onload = function() {
+              window.voiceflow.chat.load({
+                verify: { projectID: '65d88c779908f361a5bd4f81' },
+                url: 'https://general-runtime.voiceflow.com',
+                versionID: 'production'
+              });
+            }
+            v.src = "https://cdn.voiceflow.com/widget/bundle.mjs"; v.type = "text/javascript"; s.parentNode.insertBefore(v, s);
+        })(document, 'script');
+      </script>
+</body>
+</html>
